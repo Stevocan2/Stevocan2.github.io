@@ -1,0 +1,36 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+
+.hero-img{
+    width: 100vw;
+    height: 250px;
+    background-color:#D8B0FF;
+}
+
+
+
+nav{
+    font-family: 'League Spartan', sans-serif;
+}
+
+#header-one{
+    
+    font-size: 58px;
+    font-family: 'League Spartan', sans-serif;   
+}
+
+#header-two{
+    
+    font-size: 58px;
+    font-family: 'League Spartan', sans-serif;   
+}
+
+
+
+
+
+/* font-family: 'Anybody', sans-serif;
+font-family: 'League Spartan', sans-serif; */
