@@ -39,7 +39,7 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: url(Images/steven.JPG);
+    background-image: url(Images/"steven.JPG");
     background-position: center right 1px;
     background-size: cover;
     background-repeat: no-repeat;
