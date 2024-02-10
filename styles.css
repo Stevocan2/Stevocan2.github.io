@@ -6,10 +6,47 @@ body{
     
 }
 
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.hero-img-contain{
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
 .hero-img{
-    width: 100vw;
-    height: 250px;
-    background-color:#D8B0FF;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(Images/steven.JPG);
+    background-position: center right 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px white solid;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+    
 }
 
 
@@ -22,7 +59,7 @@ nav{
 
 
 #header-one{
-    
+    text-align: center;
     font-size: 58px;
     font-family: 'League Spartan', sans-serif;   
 }
