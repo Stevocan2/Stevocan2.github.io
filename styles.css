@@ -1,7 +1,7 @@
 body{
     color: white;
     background-color: black;
-    background-image: url(Images/stars.gif);
+    background-image: url("Images/stars.gif");
     background-position: center;
     
 }
