@@ -51,13 +51,17 @@ body{
 }
 
 .hero-img{
-    background-image:url("el paso.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.616)),url("EL Paso.PNG");
     background-position: center left .5px;
     background-size:cover;
     background-attachment:;
     text-align: center;
+    border-radius: 5%;
     width: 75vw;
     height: 500px;
+    padding-top: 150px;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
 }
 
 
@@ -75,8 +79,8 @@ nav{
     font-family: 'League Spartan', sans-serif;   
 }
 
-#header-two{
-    
+.header-two{
+    padding: auto;
     font-size: 58px;
     font-family: 'League Spartan', sans-serif;   
 }
@@ -85,12 +89,17 @@ nav{
 
 
 
-#header-homebase{
+.header-homebase{
     text-align: center;
     font-size: 100px;
     font-family: 'League Spartan', sans-serif;
-    display: flexbox;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10x;
     align-items: center;
+    justify-content: center;
+    transform: translatey(0px);
+    animation: opacity 1.5s ease-in-out infinite ;
  
 }
 
