@@ -35,7 +35,7 @@ body{
 }
 
 
-.hero-img{
+.icon-img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -48,6 +48,16 @@ body{
     transform: translatey(0px);
     animation: float 6s ease-in-out infinite;
     
+}
+
+.hero-img{
+    background-image:url("el paso.jpg");
+    background-position: center left .5px;
+    background-size:cover;
+    background-attachment:;
+    text-align: center;
+    width: 75vw;
+    height: 500px;
 }
 
 
@@ -71,6 +81,18 @@ nav{
     font-family: 'League Spartan', sans-serif;   
 }
 
+
+
+
+
+#header-homebase{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'League Spartan', sans-serif;
+    display: flexbox;
+    align-items: center;
+ 
+}
 
 
 
