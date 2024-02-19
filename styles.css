@@ -74,6 +74,8 @@ nav{
 }
 
 
+
+
 #header-one{
     text-align: center;
     font-size: 58px;
@@ -109,8 +111,9 @@ nav{
     border-style: solid;
     border-width: 1px;
     border-color: #f3f3f3;
-    width: 480px;
-    height: 350px;
+    width: 500px;
+    height: 400px;
+    margin-top: 5px;
     margin-bottom: 13px;
 }
 
@@ -125,12 +128,39 @@ nav{
   }
   
 
+ 
+
+  #skills-seciton{
+    margin-top: 5px;
+    margin-bottom:5px;
+    min-height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.616)),url(Images/skills.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #58c73c;
+  }
+
+
+  #skill-title{
+    position: relative;
+    ;
+  }
+
 
 .acc-icons{
-    text-center;
-    font-size: 75px;
+    position: relative;
+    font-size: 150px;
     transition: 1s;
 }
+
+
+.skills{
+    font-size: 15px;
+}
+
 
 .acc-icons:hover{
     transform: scale(1.25);
