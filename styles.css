@@ -1,6 +1,10 @@
+
+
+
 body{
+    height: 100%;
     font-family: 'Anybody', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: black;
     background-image: url("Images/stars.gif");
     background-position: center;
@@ -68,13 +72,6 @@ body{
 
 
 
-nav{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 28px
-}
-
-
-
 
 #header-one{
     text-align: center;
@@ -88,7 +85,22 @@ nav{
     font-family: 'League Spartan', sans-serif;   
 }
 
+.nav-link{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: rgb(255, 255, 255);
+}
 
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0.616);
+    height: 85px;
+}
+
+
+nav{
+    font-family: 'League Spartan', sans-serif;
+    color: #58c73c;
+}
 
 
 
@@ -134,7 +146,7 @@ nav{
     margin-top: 5px;
     margin-bottom:5px;
     min-height: 325px;
-    max-width: 100%;
+    max-width: 75vw;
     max-height: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url(Images/skills.jpg);
     background-position: center;
