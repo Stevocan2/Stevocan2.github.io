@@ -133,7 +133,7 @@ nav{
   #skills-seciton{
     margin-top: 5px;
     margin-bottom:5px;
-    min-height: 350px;
+    min-height: 325px;
     max-width: 100%;
     max-height: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url(Images/skills.jpg);
@@ -141,6 +141,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #58c73c;
+    border-radius: 10px;
   }
 
 
