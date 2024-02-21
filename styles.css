@@ -80,20 +80,26 @@ body{
 }
 
 .header-two{
+    text-align: center;
     padding: auto;
     font-size: 58px;
     font-family: 'League Spartan', sans-serif;   
 }
 
-.nav-link{
-    background-color: rgba(0, 0, 0, 0.616);
-    color: rgb(255, 255, 255);
+.navbar-collapse{
+    background-color: rgba(0, 0, 0, 0.767);
 }
 
 
+.nav-link{
+    color: rgb(219, 233, 219);
+    text-shadow: .5px .5px 1px rgb(46, 46, 46);
+
+}
+
 .navbar{
-    background-color:rgba(0, 0, 0, 0.616);
-    height: 85px;
+    background-color:rgba(0, 0, 0, 0.767);
+    height: 75px;
 }
 
 
