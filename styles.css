@@ -1,6 +1,4 @@
 
-
-
 body{
     height: 100%;
     font-family: 'Anybody', sans-serif;
@@ -87,7 +85,7 @@ body{
 }
 
 .navbar-collapse{
-    background-color: rgba(0, 0, 0, 0.767);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -98,8 +96,8 @@ body{
 }
 
 .navbar{
-    background-color:rgba(0, 0, 0, 0.767);
-    height: 75px;
+    background-color:rgb(0, 0, 0);
+    height: 80px;
 }
 
 
